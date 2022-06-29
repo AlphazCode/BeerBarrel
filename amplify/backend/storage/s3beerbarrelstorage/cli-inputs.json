@@ -1,0 +1,14 @@
+{
+  "resourceName": "s3beerbarrelstorage",
+  "bucketName": "beerbarrel-storage",
+  "policyUUID": "71d1422e",
+  "storageAccess": "authAndGuest",
+  "guestAccess": [
+    "READ"
+  ],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ]
+}

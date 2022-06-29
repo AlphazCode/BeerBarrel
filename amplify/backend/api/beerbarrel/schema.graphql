@@ -1,0 +1,25 @@
+type PackageType @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  name: String
+  Drinks: [Drink] @hasMany(indexName: "byPackageType", fields: ["id"])
+}
+
+type Category @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  name: String
+  Drinks: [Drink] @hasMany(indexName: "byCategory", fields: ["id"])
+}
+
+type Drink @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  name: String
+  description: String
+  volume: Float
+  alcohol: Float
+  price: Float
+  image_url: AWSURL
+  rating: Float
+  packagetypeID: ID! @index(name: "byPackageType")
+  categoryID: ID! @index(name: "byCategory")
+}
+ 

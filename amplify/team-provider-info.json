@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-beerbarrel-dev-200920-authRole",
+      "UnauthRoleArn": "arn:aws:iam::877818465193:role/amplify-beerbarrel-dev-200920-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::877818465193:role/amplify-beerbarrel-dev-200920-authRole",
+      "Region": "eu-central-1",
+      "DeploymentBucketName": "amplify-beerbarrel-dev-200920-deployment",
+      "UnauthRoleName": "amplify-beerbarrel-dev-200920-unauthRole",
+      "StackName": "amplify-beerbarrel-dev-200920",
+      "StackId": "arn:aws:cloudformation:eu-central-1:877818465193:stack/amplify-beerbarrel-dev-200920/bb091240-f63b-11ec-96a4-02106cecd228",
+      "AmplifyAppId": "d2dvnwfgbwvzt8"
+    },
+    "categories": {
+      "auth": {
+        "beerbarrel": {}
+      }
+    }
+  }
+}
